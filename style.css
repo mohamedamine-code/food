@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .menu img{
+    max-width: 30px;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10%;
+}
+.logo-m_k_collect{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 50%;
+
+}
+header .navbar a{
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 50px;
+}
+
+.m_k_collect{
+    display: flex;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    max-height: 80px;
+    position: fixed;
+    width: 100%;
+}
+.m_k_collect {
+    align-items: center;
+    background-color: white;
+}
+.m_k_collect a{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.bg-img{
+    width: 100%;
+}
+.bg-img img{
+    width: 100%;
+}
+.content-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.content-menu h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.content-menu h5{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.ads{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.ads .box-ads img{
+    width: 499px;
+    height: 312px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.ads .box-ads a{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.home-app{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(123/img8.png);
+}
+.home-app .food-prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-app .food-prix a{
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #fbc02d;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+/* part 3*/
+
+.size-burger{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.size-burger span{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.size-burger .size{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.size h2{
+    font-size: 25px;
+    font-weight: 800;
+    width: 100%;
+}
+.box-burger{
+    max-height: 328px;
+    max-width: 300px;
+    padding: 25px;
+    background-color:#fff59dab;
+    border-radius: 30px;
+}
+/* footer*/
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px 10%;
+}
+footer h6{
+    font-size: 15px; 
+    font-weight: 100;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+footer .socail-media i{
+    margin: 5px 10px;
+}
+.app-store-googlePlay{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+} 
+.app-store-googlePlay img{
+    max-height: 200px;
+    max-width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+}
+.info_pour_nous{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.381);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.381);
+    padding: 10px 0;
+}
+
+.info_pour_nous .info-link{
+    display: inline-grid;
+}
+
+
+.info_pour_nous .info-link a{
+    color: rgba(255, 255, 255, 0.656);
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.santé{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.666);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.copyright{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.279);
+}
+
